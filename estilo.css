@@ -1,0 +1,155 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+}
+h1,h2,h3{
+    color: rgba(0, 0, 0, 0.884);
+}
+h3, .main-content-title{
+    text-align: center;
+}
+
+.main-header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 28%;
+    height: 100%;
+    text-align: right;
+    padding: 35px 35px 0 0;
+    background-image: url(/Imagens/background\ image.jpg);
+    background-position: left top;    
+
+}
+.header-link{
+    text-decoration:underline dotted;
+    color: white;
+    transition: all .6s;
+}
+.header-link:hover{
+    color: red;
+    text-decoration: none;
+}
+.main-header img{
+    border-radius: 50%;
+}
+.main-header-title, .main-header-title strong{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.main-content{
+    padding: 10px 0 0 0;
+    width: 65%;
+    margin-left: 34%;
+    box-sizing: border-box;
+    
+}
+.main-titles{
+    margin-top: 30px ;
+    overflow: auto;
+}
+.main-titles li{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-titles p{
+   margin-top: 5px;
+}
+.title-freelancer{
+    padding: 0;
+}
+.title-freelancer li{
+    font-weight: normal;
+    font-style: italic;
+    list-style: none;
+}
+.projetos-titulo{
+    margin: 0;
+    margin-left: -20px;
+    color: black;
+}
+.projetos li{
+    padding: 0;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.pblack{
+    color: black;
+    font-weight: bold;
+}
+.main-content-links{
+    height: 100px;
+    width: 80%;
+    margin-left: 7%;
+    text-align: center;
+    background-color: #004585c7;
+    border-radius: 10px;
+    
+}
+.main-content-links li{
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin: 10px;
+    color:rgb(255, 255, 255);
+    transition: all .4s;
+    
+}
+.projetos{
+    width: 40%;
+    margin: 1%;
+    float: left;
+    overflow: both;
+    background-color: #66666623;
+    box-shadow: 0px 0px 10px 10px #66666623;
+}
+.project-link{
+    color: blue;
+    transition: all .6s;
+}
+.project-link:hover{
+    margin-left: -20px;
+    text-decoration:underline;
+    color:red;
+}
+.main-content-links li:hover, .main-content-links img{
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+}
+.main-content-links img{
+    width: 25px;
+    margin-bottom: -7px;
+}
+.col-2-5 a{
+    margin: 0 10px;
+    
+}
+.col-3-5 a{
+    margin: 0 10px;
+    
+}
+.col-3-5 img:nth-child(2){
+    margin-bottom: -1px;
+}
+.footer-header{
+    position: fixed;
+    bottom: 100px;
+    left: 8.5%;
+}
+.footer-header img{
+    width: 30px;
+    padding: 0 5px;
+    transition: all .3s;
+}
+.footer-header img:hover{
+    margin-bottom: 5%;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.801);
+    text-align: right;
+    margin: 0;
+    border-left: 2px solid white;
+    margin-left: 80px;
+    
+}
