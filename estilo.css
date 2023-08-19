@@ -32,6 +32,7 @@ h3, .main-content-title{
 }
 .main-header img{
     border-radius: 50%;
+    width: 200px;
 }
 .main-header-title, .main-header-title strong{
     font-size: 20px;
@@ -152,4 +153,10 @@ h3, .main-content-title{
     border-left: 2px solid white;
     margin-left: 80px;
     
+}
+@media screen and (max-width: 600px) {
+    .main-header img{
+        width: 100px;
+        margin-left: 40px;
+    }
 }
