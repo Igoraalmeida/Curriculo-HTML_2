@@ -41,7 +41,7 @@ h3, .main-content-title{
 .main-content{
     padding: 10px 0 0 0;
     width: 65%;
-    margin-left: 34%;
+    margin-left: 35%;
     box-sizing: border-box;
     
 }
@@ -154,16 +154,23 @@ h3, .main-content-title{
     margin-left: 80px;
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    .main-header{
+        background-repeat: no-repeat;
+        width: 25%;
+    }
     .main-header img{
         width: 100px;
+        margin-left: 16%;
     }
     .main-header p{
         text-align: center;
-        font-size: 15px;
-        padding: 10%;
+        font-size: 20px;
+        
+    }
+    .main-header-title{
         margin-left: 20%;
-
+        padding-left: 5% ;
     }
     .footer-header ul{
         visibility: hidden;
@@ -172,6 +179,50 @@ h3, .main-content-title{
         margin-right: 10%;
     }
     .footer-header {
-        left: -13%;
+        bottom: 2%;
+        left: -30%;
     }
+    .main-content-links{
+        height: 0%;
+        width: 84%;
+        margin-left: 0%;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .main-content-links img{
+        display: none;
+    }
+    .main-content-links li{
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+        /* margin: 10px; */
+        color:rgb(255, 255, 255);
+        transition: all .4s;
+        
+    }
+    .col-2-5 a{
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    .col-3-5 a{
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    .col-3-5{
+        margin-top: -25px;
+    }
+    .col-3-5 img:nth-child(2){
+        margin-bottom: -1px;
+    }
+    .projetos{
+        width: 80%;
+        margin: 1%;
+        float: left;
+        overflow: both;
+        background-color: inherit;
+        box-shadow: 0px 0px 0px 0px #66666623;
+    }
+
+
 }
