@@ -157,6 +157,21 @@ h3, .main-content-title{
 @media screen and (max-width: 600px) {
     .main-header img{
         width: 100px;
-        margin-left: 40px;
+    }
+    .main-header p{
+        text-align: center;
+        font-size: 15px;
+        padding: 10%;
+        margin-left: 20%;
+
+    }
+    .footer-header ul{
+        visibility: hidden;
+    }
+    .footer-header p{
+        margin-right: 10%;
+    }
+    .footer-header {
+        left: -13%;
     }
 }
