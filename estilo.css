@@ -158,6 +158,7 @@ h3, .main-content-title{
     .main-header{
         background-repeat: no-repeat;
         width: 25%;
+        height: 100%;
     }
     .main-header img{
         width: 100px;
@@ -166,7 +167,6 @@ h3, .main-content-title{
     .main-header p{
         text-align: center;
         font-size: 20px;
-        
     }
     .main-header-title{
         margin-left: 20%;
@@ -179,6 +179,7 @@ h3, .main-content-title{
         margin-right: 10%;
     }
     .footer-header {
+        position:fixed;
         bottom: 2%;
         left: -30%;
     }
