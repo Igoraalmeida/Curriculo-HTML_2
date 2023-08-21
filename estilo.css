@@ -18,8 +18,7 @@ h3, .main-content-title{
     text-align: right;
     padding: 35px 35px 0 0;
     background-image: url(/Imagens/background\ image.jpg);
-    background-position: left top;    
-
+    background-position: left top;   
 }
 .header-link{
     text-decoration:underline dotted;
@@ -156,9 +155,10 @@ h3, .main-content-title{
 }
 @media screen and (max-width: 768px) {
     .main-header{
-        background-repeat: no-repeat;
         width: 25%;
         height: 120%;
+        background-repeat: no-repeat;
+        background-size:cover;
     }
     .main-header img{
         width: 100px;
@@ -167,6 +167,9 @@ h3, .main-content-title{
     .main-header p{
         text-align: center;
         font-size: 20px;
+    }
+    .main-titles{
+        margin-top: 15px;
     }
     .main-header-title{
         margin-left: 20%;
